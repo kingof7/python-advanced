@@ -43,3 +43,8 @@ unicorn.hybrid_action()
 unicorn.shout("neigh")
 unicorn.shout("flap")
 unicorn.run()
+
+# Print the inheritance hierarchy of the Hybrid class
+# multiple resolution order (MRO) shows the order in which classes are looked up when searching for a method.
+print(Hybrid.__mro__)  # Print the method resolution order to see the inheritance hierarchy
+
